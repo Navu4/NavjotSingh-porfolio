@@ -47,7 +47,11 @@ function rotate(list, containerDiv, flag) {
   console.log(containerDiv);
 }
 
-if (mainContainer.offsetWidth < 1025 && mainContainer.offsetWidth > 768) {
+
+if(mainContainer.offsetWidth > 1025){
+  displayBlog = 2;
+}
+else if (mainContainer.offsetWidth < 1025 && mainContainer.offsetWidth > 768) {
   container.children[2].classList.add('hide');
   displayBlog = 1;
 } else if(mainContainer.offsetWidth < 770){
