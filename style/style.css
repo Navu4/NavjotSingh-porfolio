@@ -994,7 +994,7 @@ input {
         right: 90;
         top: 10vh;
 
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
         
         background-color: rgb(14, 36, 49);
@@ -1004,8 +1004,8 @@ input {
 
     .navbar .nav-item a{
         color: #fff;
-        font-weight: 500;
-        font-size: 10px;
+        font-weight: 200;
+        font-size: 15px;
     }
 
     .navbar .nav-item a:hover{
